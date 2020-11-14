@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Body{
+    width: 100%;
+    height: auto;
+}
+
+.Appheading{
+    text-align: center;
+}
+
+.loading{
+    width: 100%;
+    height: 100vh;
+    padding: 10%;
+    overflow: hidden;
+}
+
+.tabs{
+    width: 65%;
+    height: auto;
+    margin: auto;
+}
+
+@media screen and (max-width:600px)
+{
+    .tabs{
+        width: 90%;
+    }
+}
+
+.bottomline{
+    width: 10%;
+    margin: auto;
+    border-bottom: 5px solid rgb(103, 231, 171);
+}
+
+.btn-container{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.buttn{
+    padding: 5px 20px;
+    margin: 1%;
+    border: 2px solid lightskyblue;
+    color:#03c571;
+    border-radius: 5px;
+    border-bottom: 2px solid #33ffa5;
+    background-color: transparent;
+}
+
+.buttn-active{
+    padding: 5px 20px;
+    margin: 1%;
+    border: 2px solid #33ffa5;
+    color:black;
+    font-size: large;
+    border-radius: 5px;
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);    
+}
+
+.jobs{
+    border-radius: 5px;
+    padding: 5%;
+}
